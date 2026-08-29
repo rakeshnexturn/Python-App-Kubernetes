@@ -222,3 +222,29 @@ Once your pod is up and running, run the port-forward to expose the service
 ```bash
 kubectl port-forward service/<service_name> 5000:5000
 ```
+
+---
+## NextOps Compliance Report
+
+> Branch: `nextops/onboarding-Python-App-Kubernetes-1788030056294` | Language: `python`
+
+**Summary:** 14 file(s) created · 0 file(s) patched · 1 file(s) conforming
+
+### Compliance Findings
+
+| File | Line | Issue | Action Taken |
+|------|------|-------|-------------|
+| `.github/workflows/build.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `.github/workflows/deploy-aks.yml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/environments.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/Chart.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/templates/configmap.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/templates/deployment.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/templates/ingress.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/templates/secret.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/templates/service.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/templates/serviceaccount.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/values.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/values/dev.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/values/prod.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
+| `deploy/helm/values/stage.yaml` | — | File missing — created from NextOps template | ✅ Created from template |
