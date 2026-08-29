@@ -222,3 +222,20 @@ Once your pod is up and running, run the port-forward to expose the service
 ```bash
 kubectl port-forward service/<service_name> 5000:5000
 ```
+
+---
+## NextOps Repository Onboarding
+
+> Branch: `nextops/onboarding-Python-App-Kubernetes-1788026361615` | Language: `python`
+
+### Compliance Status
+
+- Dockerfile: ✅ Found
+- Helm chart: 🆕 Generated
+- CI workflow: 🆕 Generated
+- CD workflow: 🆕 Generated
+- environments.yaml: 🆕 Generated
+
+### Action Required
+
+Review generated files and update any `TODO` placeholders with application-specific values.
